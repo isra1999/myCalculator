@@ -1,4 +1,4 @@
-package testFile;
+package test;
 
 import static org.junit.Assert.*;
 
@@ -12,8 +12,7 @@ public class testAdd {
 	public void test() {
 		myCalculator cal = new myCalculator();
 		int ev = cal.Add(1, 1);
-		assertEquals(2, ev);
-		
+		assertEquals(2, ev);	
 	}
-
+	
 }
